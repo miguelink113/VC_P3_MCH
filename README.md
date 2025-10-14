@@ -5,10 +5,9 @@ Este proyecto implementa dos tareas distintas para la detección y clasificació
 ## Requisitos
 - Python 3.x
 - Bibliotecas: OpenCV (`cv2`), NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
-- Imágenes de entrada y archivos CSV (según la tarea)
+- Imágenes de entrada y archivo CSV
 
-
-## Tarea 2: Clasificación de Monedas
+## Tarea 1: Clasificación de Monedas
 ### Descripción
 Esta tarea detecta y clasifica monedas en una imagen (`Monedas.jpg`) según su tamaño y color, utilizando una moneda de 1 euro como referencia. Calcula el valor total de las monedas en euros.
 
@@ -23,7 +22,7 @@ Esta tarea detecta y clasifica monedas en una imagen (`Monedas.jpg`) según su t
 5. **Clasificación final**: Combina tamaño y color para asignar un valor final a cada moneda (1, 2, 5, 10, 20, 50, 100, 200 céntimos).
 6. **Resumen económico**: Calcula el valor total en euros y muestra un resumen.
 7. **Visualización**: Genera una imagen con las monedas etiquetadas (valor, color detectado, radio aproximado) y el dinero total.
-
+![alt text](image.png)
 ## Tarea 2: Clasificación de Microplásticos
 ### Descripción
 Esta tarea detecta y clasifica contornos en imágenes en tres clases: `FRA` (fragmentos), `PEL` (pellets) y `TAR` (alquitrán). Utiliza un enfoque basado en características ponderadas y distancia euclidiana normalizada.
