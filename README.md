@@ -22,7 +22,8 @@ Esta tarea detecta y clasifica monedas en una imagen (`Monedas.jpg`) según su t
 5. **Clasificación final**: Combina tamaño y color para asignar un valor final a cada moneda (1, 2, 5, 10, 20, 50, 100, 200 céntimos).
 6. **Resumen económico**: Calcula el valor total en euros y muestra un resumen.
 7. **Visualización**: Genera una imagen con las monedas etiquetadas (valor, color detectado, radio aproximado) y el dinero total.
-![alt text](image.png)
+![alt text](readme_images/image.png)
+![alt text](readme_images/image.png)
 ## Tarea 2: Clasificación de Microplásticos
 ### Descripción
 Esta tarea detecta y clasifica contornos en imágenes en tres clases: `FRA` (fragmentos), `PEL` (pellets) y `TAR` (alquitrán). Utiliza un enfoque basado en características ponderadas y distancia euclidiana normalizada.
