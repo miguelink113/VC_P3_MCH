@@ -80,7 +80,7 @@ Cada contorno está coloreado según la clase asignada (**FRA**, **PEL**, **TAR*
 
 ### 🔹 Matriz de confusión y métricas de desempeño
 ![alt text](readme_images/image8.png)
-La matriz de confusión resultante resume las predicciones frente a las etiquetas reales. Se observan **altas tasas de acierto global**, especialmente en las clases **PEL** y **FRA**, que presentan menor solapamiento visual. A partir de esta matriz, se calcularon las métricas de desempeño (**precisión**, **sensibilidad** y **F1-score**), confirmando la robustez del método propuesto, considerando las limitaciones de iluminación, contraste y segmentación en la imagen de prueba.
+
 ```
 --- MÉTRICAS ---
 Precisión Global (Accuracy): 0.8933
@@ -88,3 +88,7 @@ Precisión Macro (Precision): 0.9204
 Sensibilidad Macro (Recall): 0.8631
 Puntuación F1 Macro (F1-score): 0.8852
 ```
+La matriz de confusión resultante resume las predicciones frente a las etiquetas reales. Se observan **altas tasas de acierto global**. También se calcularon las métricas de desempeño, confirmando la robustez del método propuesto, considerando las limitaciones de iluminación, contraste y segmentación en la imagen de prueba.
+
+### 🔹 Posibles mejoras
+Una mejor detección de contornos podría haber evitado fallos como el unir dos contornos en uno solo, detectar sombras como si fueran microplásticos y no detectar algunos de los microplásticos.
