@@ -46,7 +46,6 @@ Esta tarea detecta y clasifica contornos en imágenes en tres clases: `FRA` (fra
 ![alt text](readme_images/image4.png)
 ![alt text](readme_images/image5.png)
 3. **Clasificación**: Clasifica contornos usando una distancia euclidiana ponderada y normalizada, comparando con características de entrenamiento. Los pesos para las diferentes características recogidas en el entrenamiento fueron obtenidos mediante prueba y error.
-![alt text](readme_images/image6.png)
 ```
 feature_weights = {
     "area": 3.5,
